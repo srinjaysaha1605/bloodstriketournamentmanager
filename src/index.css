@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-bebas {
+    font-family: 'Bebas Neue', cursive, sans-serif;
+    letter-spacing: 0.05em;
+  }
+  .font-teko {
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 0.03em;
+  }
+}
+
+.glitch-text {
+  text-shadow: 2px 0 #FF003C, -2px 0 #E6FF00;
+}
+
+.neon-border-red {
+  border: 1px solid #FF003C;
+  box-shadow: 0 0 10px rgba(255, 0, 60, 0.2);
+}
+
+.neon-border-yellow {
+  border: 1px solid #E6FF00;
+  box-shadow: 0 0 10px rgba(230, 255, 0, 0.2);
+}
+
+/* Custom dark tactical gaming scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0b0b;
+}
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E6FF00;
+}
+
+/* Neon Glow utilities */
+.glow-yellow {
+  box-shadow: 0 0 15px rgba(230, 255, 0, 0.25);
+}
+.glow-red {
+  box-shadow: 0 0 15px rgba(255, 0, 60, 0.3);
+}
+.glow-cyan {
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.2);
+}
+
+/* Tactical subtle grid background pattern */
+.bg-tactical-grid {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+

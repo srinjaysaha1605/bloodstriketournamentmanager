@@ -1,0 +1,6 @@
+{
+  "name": "BloodStrike Tournament Manager",
+  "description": "A minimal, high-efficiency BloodStrike tournament manager featuring dynamic scoreboards, AI natural-language control, and dramatic challenger email invitations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
