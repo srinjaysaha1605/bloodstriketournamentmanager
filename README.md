@@ -1,4 +1,4 @@
-# 🏆 BloodStrike Tournament Hub
+# 🏆 BloodStrike Tournament Manager
 
 A high-efficiency, tactical esports tournament management web application designed for running live **BloodStrike** competitions. Built with **React**, **TypeScript**, and **Tailwind CSS**.
 
@@ -30,33 +30,3 @@ A high-efficiency, tactical esports tournament management web application design
   - Responsive layout for desktop and mobile displays.
 
 ---
-
-## 🚀 Getting Started
-
-### Prerequisites
-Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
-
-### Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/bloodstrike-tournament-hub.git
-   cd bloodstrike-tournament-hub
-Install dependencies:
-code
-Bash
-npm install
-Start the development server:
-code
-Bash
-npm run dev
-Build for production:
-code
-Bash
-npm run build
-🛠️ Tech Stack
-Framework: React 18
-Language: TypeScript
-Styling: Tailwind CSS
-Icons: Lucide React
-Build Tool: Vite
