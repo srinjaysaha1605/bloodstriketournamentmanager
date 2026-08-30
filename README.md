@@ -1,5 +1,7 @@
 # 🏆 BloodStrike Tournament Manager
 
+Link: https://bloodstriketournamentmanager.netlify.app/
+
 A high-efficiency, tactical esports tournament management web application designed for running live **BloodStrike** competitions. Built with **React**, **TypeScript**, and **Tailwind CSS**.
 
 ---
